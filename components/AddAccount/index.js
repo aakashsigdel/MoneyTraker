@@ -30,6 +30,7 @@ export default class AddAccount extends Component {
           </Text>
           <TextInput
             placeholder="0.0"
+            keyboardType="numeric"
             placeholderTextColor="white"
             style={styles.textInput}
           />

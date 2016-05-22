@@ -10,7 +10,6 @@ var styles = {
     backgroundColor: '#478978',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 25,
   },
   text: {
     fontSize: 24,

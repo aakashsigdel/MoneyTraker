@@ -24,6 +24,7 @@ let styles = {
     backgroundColor: '#84DCC6',
     color: 'white',
     paddingLeft: 15,
+    paddingRight: 10,
     marginLeft: 48,
     marginTop: 15,
   },
@@ -41,7 +42,6 @@ let styles = {
     alignItems: 'center',
     shadowColor: 'black',
     shadowOpacity: 0.5,
-    shadowOffset: {width: 0, height: 3}
   },
 };
 

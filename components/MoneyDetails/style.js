@@ -5,9 +5,13 @@ import { VIEWPORT } from '../../utils';
 
 let styles = {
   container: {
+    paddingTop: 18,
+  },
+  innerContainer: {
     flex: 1,
     flexDirection: 'row',
-    paddingLeft: 23,
+    marginLeft: 23,
+    marginRight: 0.15 * VIEWPORT.width,
   },
   circleContainer: {
     flex: 1,
@@ -21,13 +25,13 @@ let styles = {
     borderRadius: 22,
   },
   details: {
-    flex: 4,
-    paddingRight: 40,
+    flex: 3,
   },
   header: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginBottom: 7,
   },
   payContainer: {
     flexDirection: 'row',
@@ -46,6 +50,14 @@ let styles = {
   payDetail: {
     fontSize: 14,
     color: '#B0B0B0',
+  },
+  hrLine: {
+    borderWidth: 0.2,
+    backgroundColor: '#979797',
+    borderColor: 'black',
+    width: 0.8 * VIEWPORT.width,
+    alignSelf: 'center',
+    marginTop: 18,
   },
   text: {
     fontFamily: 'AvenirNext-DemiBold',

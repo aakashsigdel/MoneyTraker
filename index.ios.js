@@ -10,14 +10,14 @@ import React, {
 import Header from './components/Header';
 import AddAccount from './components/AddAccount';
 import ViewStats from './components/ViewStats';
+import MainContainer from './components/MainContainer';
 
 class MoneyTracker extends Component {
   render () {
     return (
       <View style={{flex: 1}}>
         <Header />
-        {/* <AddAccount /> */} 
-        <ViewStats />
+        <MainContainer />
       </View>
     )
   }
